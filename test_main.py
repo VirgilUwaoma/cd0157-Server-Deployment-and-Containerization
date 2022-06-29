@@ -28,6 +28,7 @@ def test_health(client):
     assert response.json == 'Healthy'
 
 
+
 def test_auth(client):
     body = {'email': EMAIL,
             'password': PASSWORD}
